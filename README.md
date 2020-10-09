@@ -9,13 +9,14 @@ alternative pr method
 
 ## Disable appropriate screens
 
-Screens team has an [internal tool](https://screens.mbtace.com/admin#/) to change the configuration of various screens. If subway data is down, some screens should be disabled using the tool. [Full tool instructions](https://docs.google.com/document/d/1rFPyd3vxRbpuuRRAJ1iwTgEVhj23TJtzHP_JqYofJLA/edit?usp=sharing#heading=h.ufspnh7giid0) include screenshots for each step.
+Screens team has an [internal tool](https://screens.mbtace.com/admin#/) to change the configuration of various screens. If subway data is down, some screens should be disabled using the tool. 
+[Full tool instructions](https://docs.google.com/document/d/1rFPyd3vxRbpuuRRAJ1iwTgEVhj23TJtzHP_JqYofJLA/edit?usp=sharing#heading=h.ufspnh7giid0) include screenshots for each step.
 
 #### Access the tool
-* [screens.mbtace.com/admin#](https://screens.mbtace.com/admin#/) - you may have to log in via ActiveDirectory.
+* [screens.mbtace.com/admin#](https://screens.mbtace.com/admin#/) (you may have to log in via ActiveDirectory)
 
 #### Select the appropriate screens
-Use the column filter **"App ID"** to find the correct signs and use the 'select all' checkbox in the top left to select them (you may repeat this for multiple App ID types & it will retain your selections). As of October 2020, the tool includes Solari and E-Ink signs that use subway data:
+Use the column filter **App ID** to find the correct signs and use the `select all` checkbox in the top left to select them (you may repeat this for multiple App ID types & the tool will retain your selections). As of October 2020, the tool includes three apps that use subway data:
 * gl_eink_single
 * gl_eink_double
 * solari
@@ -35,7 +36,7 @@ The tool will provide a confirmation message, but you can also check in Chrome t
 * [Solari](https://screens.mbta.com/screen/solari?scroll=true)
 
 #### Notify Screens team
-Post the following on Slack at #screens-dev: "Solari & E-Ink screens have been disabled for a data issue"
+Post the following on Slack at [#screens-dev](https://mbta.slack.com/archives/CSZEKL4G4): "Solari & E-Ink screens have been disabled for a subway data issue"
 
 ## Identify the cause...
 
